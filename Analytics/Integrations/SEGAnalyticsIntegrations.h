@@ -46,7 +46,6 @@
 #import "SEGOptimizelyIntegration.h"
 #endif
 
-
 #if defined(USE_ANALYTICS_TAPLYTICS) || defined(USE_ANALYTICS_ALL)
 #import "SEGTaplyticsIntegration.h"
 #endif
@@ -54,11 +53,6 @@
 #if defined(USE_ANALYTICS_TAPSTREAM) || defined(USE_ANALYTICS_ALL)
 #import "SEGTapstreamIntegration.h"
 #endif
-
-#if defined(USE_ANALYTICS_TESTFLIGHT) || defined(USE_ANALYTICS_ALL)
-#import "SEGTestFlightIntegration.h"
-#endif
-
 
 #if defined(USE_ANALYTICS_QUANTCAST) || defined(USE_ANALYTICS_ALL)
 #import "SEGQuantcastIntegration.h"
