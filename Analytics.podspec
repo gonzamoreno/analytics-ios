@@ -1,7 +1,7 @@
 begin
   require File.expand_path('./scripts/build.rb')
 rescue LoadError
-  require File.expand_path('~/scripts/build.rb')
+  require File.expand_path('~/iOS-Projects/analytics-io/scripts/build.rb')
 end
 
 Pod::Spec.new do |s|
